@@ -4,16 +4,8 @@
     padding: 0;
 }
 
-
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url('./images/background-image.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    object-fit: contain;
-    padding-bottom: 2rem;
-    height: 130vh;
 }
 
 ul {
@@ -28,6 +20,16 @@ a:hover{
     text-decoration: underline;
 }
 
+.main {
+    background-image: url('./images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    padding-bottom: 2rem;
+    height: 130vh;
+}
+
 .navbar{
     display: flex;
     justify-content: flex-start;
@@ -36,16 +38,16 @@ a:hover{
 }
 
 .navbar div h1{
-    margin-left: 0.6rem;
+    margin-left: 0.2rem;
     color: #E50914;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: 'Cinzel', serif;
     cursor: pointer;
 }
 
 .grid-container{
     display: grid;
-    grid-template-columns: 90%;
+    grid-template-columns: 85%;
     justify-content: space-evenly;
 }
 
@@ -53,7 +55,7 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 0.88rem;
     padding: 1.7rem 1.3rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     box-shadow:  6px 7px 5px rgb(0, 0, 0);
 }
 
